@@ -1,0 +1,155 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.img{
+	position: relative;
+	height: 400px;
+	background-image: url("bag.png");
+	background-repeat: no-repeat;
+	padding: 70px;
+	background-position: center;
+	bottom: 40px;
+	background-size: 18%;
+}
+.btn{
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+	background: 
+}
+.btn button{
+	border: 2px solid black;
+    /* background: radial-gradient(black, transparent); */
+    color: #000;
+    font-size: 20px;
+    font-family: arial;
+    background-color: #009688;
+}
+.btn button:hover{
+	transition: 10s;
+	background: white;
+	color: black;
+}
+.health{
+	display: flex;
+	border: 2px solid black;
+    width: 200px;
+    background-color: #000000;
+    /*position: relative;*/
+    /*left: 400px;*/
+    bottom: 50px;
+    transform: translate(195%,-200%);
+}
+.ld {
+    height: 20px;
+    background: crimson;
+}
+.change{
+	position: relative;
+	height: 400px;
+	background-image: url("bag-burst.png");
+	background-repeat: no-repeat;
+	padding: 70px;
+	background-position: center;
+	bottom: 40px;
+	background-size: 18%;
+}
+
+.hit{
+	position: absolute;
+	height: 20px;
+	padding: 70px;
+	bottom: 80px;
+	left: 400px;
+}
+.hit{
+	position: absolute;
+	height: 20px;
+	padding: 70px;
+	bottom: 80px;
+	left: 400px;
+}
+#div1{
+	position: absolute;
+	height: 30px;
+	padding: 70px;
+	bottom: 80px;
+	left: 430px;
+}
+#div2{
+	position: absolute;
+	height: 30px;
+	padding: 70px;
+	bottom: 110px;
+	left: 420px;
+}
+#div3{
+	position: absolute;
+	height: 30px;
+	padding: 70px;
+	bottom: 110px;
+	left: 420px;
+}#div4{
+	position: absolute;
+	height: 40px;
+	padding: 70px;
+	bottom: 110px;
+	left: 430px;
+}#div5{
+	position: absolute;
+	height: 30px;
+	padding: 70px;
+	bottom: 160px;
+	left: 420px;
+}#div6{
+	position: absolute;
+	height: 35px;
+	padding: 70px;
+	bottom: 130px;
+	left: 410px;
+}
+#div7{
+	position: absolute;
+	height: 40px;
+	padding: 70px;
+	bottom: 110px;
+	left: 450px;
+}
+#div8{
+	position: absolute;
+	height: 40px;
+	padding: 70px;
+	bottom: 170px;
+	left: 420px;
+
+}
+#div9{
+	position: absolute;
+	height: 50px;
+	padding: 70px;
+	bottom: 100px;
+	left: 460px;
+	
+}
+
+@media screen and (max-width: 500px){
+
+.health{
+	position: absolute;
+	text-align: center;
+	width: 150px;
+	left: -130px;
+	bottom: 200px;
+}
+.btn{
+	bottom: 200px;
+	margin: 20px;
+}
+.img{
+	bottom: 180px;
+	margin: 20px;
+}
+
+
+}

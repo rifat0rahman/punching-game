@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="punch.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<title>this is a punch game</title>
+</head>
+<body>
+	<section id="app1" class="section1">
+		<div class="img" v-bind:class="{change:ended}" >
+			<div class="spots">
+				<img src="hit.png" class="hit" id="div1">
+				<img src="hit.png" class="hit" id="div2">
+				<img src="hit.png" class="hit" id="div3">
+				<img src="hit.png" class="hit" id="div4">
+				<img src="hit.png" class="hit" id="div5">
+				<img src="hit.png" class="hit" id="div6">
+				<img src="hit.png" class="hit" id="div7">
+				<img src="hit.png" class="hit" id="div8">
+				<img src="hit.png" class="hit" id="div9">
+			</div>
+		</div>
+		<div class="health">
+			<div class="ld" v-bind:style="{width:data+'%'}"></div>
+		</div>
+		<div class="btn">
+			<button @click="punch" v-show=!ended>punch</button>
+			<button @click = "restart" v-show=ended>restart</button>
+		</div>
+	</section>
+
+
+
+
+
+</body>
+<script type="text/javascript" src="./panch.js"></script>
+</html>
